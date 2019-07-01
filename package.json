@@ -1,0 +1,28 @@
+{
+  "name": "mqtt-rethinkdb",
+  "version": "1.0.0",
+  "description": "The MQTT client with RethinkDB database as a circular database act as real time data provider",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/konstsaf/mqtt-rethinkdb.git"
+  },
+  "keywords": [
+    "mqtt",
+    "rethinkdb"
+  ],
+  "author": "Konstantin Safronov <konstsaf@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/konstsaf/mqtt-rethinkdb/issues"
+  },
+  "homepage": "https://github.com/konstsaf/mqtt-rethinkdb#readme",
+  "dependencies": {
+    "async": "^3.1.0",
+    "mqtt": "^3.0.0",
+    "rethinkdb": "^2.3.3"
+  }
+}
