@@ -11,16 +11,18 @@ Used as data aquisition part of IoT hobby project.
 
 # Installation
 - Clone repository to local machine
-git https://github.com/konstsaf/mqtt-rethinkdb.git
+`git https://github.com/konstsaf/mqtt-rethinkdb.git`
 
-- Go to mqtt-rethinkdb folder
+- Go to `mqtt-rethinkdb` folder
 - Install dependances
+```
 npm install --save
-
+```
 - Modify to have yours MQTT server connection parameters
 - Start MQTT messages aquisition
+```
 node server.js
-
+```
 # ToDo list
 - [x] Setup defined MQTT server connection and topic subscribtion by template
 - [x] Database setup
@@ -28,3 +30,4 @@ node server.js
 - [ ] Circular databese with TTL
 - [ ] Individual subscription for MQTT topics
 - [ ] Individual TTL by MQTT message topics
+
